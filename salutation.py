@@ -1,0 +1,7 @@
+print("salut comment tu t'appellle ?")
+pren=input()
+print("quel age a tu ?")
+age=input()
+print("où habite tu?")
+hab=input()
+print("Bonjour "+ pren + " tu as " + age + " ans et tu habites à " + hab + ".") 
