@@ -1,0 +1,5 @@
+print("Saisi trois nombres !")
+x=int(input())
+y=int(input())
+z=int(input())
+print("La somme des trois nombres est " + str(x+y+z) + "!")

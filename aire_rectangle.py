@@ -1,0 +1,5 @@
+print("Quel est la longeur du rectangle ?")
+x=int(input())
+print("Quel est la largeur du rectangle ?")
+y=int(input())
+print("L'aire du rectangle est " + str(x*y) + " !")
