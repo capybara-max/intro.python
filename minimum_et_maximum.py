@@ -1,0 +1,8 @@
+print("donne moi 3 nombre")
+x = int(input())
+y = int(input())
+z = int(input())
+a = min( x , y , z )
+b = max( x , y , z )
+print("le plus petit nombre est " + str(a))
+print("le plus grand nombre est " + str(b))
