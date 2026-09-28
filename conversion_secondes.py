@@ -1,6 +1,12 @@
 print("donne moi une durée en sec")
 x = int(input())
-m = x//60
-h = m//60
-d = h//60
-print("et "+ str(m)+ str(h)+ str(d))
+s = int(x % 60)
+y = int(x // 60)
+m = int(y % 60)
+z = int(y // 60)
+h = int(z % 60)
+t = int(z // 60)
+d = int(t % 24)
+a = int(t // 364.25)
+
+print(f" il est {s} sec {m} min {h} h et {d} j  et {a} ans!" )
