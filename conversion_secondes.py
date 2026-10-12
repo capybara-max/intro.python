@@ -9,4 +9,4 @@ t = int(z // 60)
 d = int(t % 24)
 a = int(t // 364.25)
 
-print(f" il est {s} sec {m} min {h} h et {d} j  et {a} ans!" )
+print(f" il est et {a}ans {d}j {h}h {m}min et {s}sec !" )

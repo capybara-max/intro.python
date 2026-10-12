@@ -1,3 +1,7 @@
 print("Coucou")
+a = input("est-ce qu'on continue ?")
 while a != "non":
-    input("Est-ce qu'on continue ? ")
+    a = input("est-ce qu'on continue ?")
+     
+print("Ok bye !")
+    
